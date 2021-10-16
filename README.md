@@ -8,11 +8,11 @@ Base
 
 - https://api-climate-change.herokuapp.com/
 
-Get climate news articles from all sources
+Get climate news articles from all sources:
 
 - /news
 
-Get climate news articles from a single source
+Get climate news articles from a single source:
 
 - /news/guardian
 - /news/thetimes
