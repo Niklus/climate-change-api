@@ -30,7 +30,14 @@ function getAllSources(req, res) {
             resolve(articles);
           }
         })
-        .catch((err) => res.send(err));
+        .catch((err) => {
+          counter++;
+          if (counter === newsPapers.length) {
+            resolve(articles);
+          }
+
+          console.log(err);
+        });
     });
   });
 }
