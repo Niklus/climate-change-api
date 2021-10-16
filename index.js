@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const articles = require("./utils/articles");
 
-const PORT = process.env.port || 8000;
+const PORT = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to the climate change News API</h1>");
