@@ -4,8 +4,10 @@ const articles = require("./utils/articles");
 
 const PORT = process.env.PORT || 8000;
 
+app.set("view engine", "hbs");
+
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to the climate change News API</h1>");
+  res.render("index");
 });
 
 app.get("/news", (req, res) => {
