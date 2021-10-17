@@ -14,6 +14,11 @@ const newsPapers = [
     address: "https://www.telegraph.co.uk/climate-change/",
     base: "https://www.telegraph.co.uk",
   },
+  {
+    name: "UN",
+    address: "https://www.un.org/climatechange",
+    base: "",
+  },
 ];
 
 module.exports = newsPapers;
