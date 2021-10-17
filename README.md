@@ -17,3 +17,4 @@ Get climate news articles from a single source:
 - /news/guardian
 - /news/thetimes
 - /news/telegraph
+- /news/un

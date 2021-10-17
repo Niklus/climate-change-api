@@ -15,7 +15,7 @@ const newsPapers = [
     base: "https://www.telegraph.co.uk",
   },
   {
-    name: "UN",
+    name: "un",
     address: "https://www.un.org/climatechange",
     base: "",
   },
