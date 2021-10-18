@@ -11,9 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/news", (req, res) => {
-  articles.getAllSources(req, res).then((data) => {
-    res.json(data);
-  });
+  articles.getAllSources(req, res);
 });
 
 app.get("/news/:newspaperId", (req, res) => {
