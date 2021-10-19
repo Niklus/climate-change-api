@@ -22,8 +22,7 @@ function getAllSources(req, res) {
             source: newsPaper.name,
           });
         });
-      })
-      .then(() => {
+
         counter++;
         if (counter === newsPapers.length) {
           res.json(articles);
