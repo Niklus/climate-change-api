@@ -18,3 +18,12 @@ Get climate news articles from a single source:
 - /news/thetimes
 - /news/telegraph
 - /news/un
+- /news/nyp
+- /news/dm
+- /news/sun
+- /news/es
+- /news/bbc
+- /news/smh
+- /news/latimes
+- /news/nyt
+- /news/cityam
